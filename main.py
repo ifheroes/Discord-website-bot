@@ -9,7 +9,7 @@ TOKEN = data["token"]
 
 client = commands.Bot(command_prefix='if!', intents = discord.Intents.default(), case_insensitive=True)
 
-@client.event()
+@client.event
 async def on_ready():
     print('\nReady!\n')
 
