@@ -10,7 +10,6 @@ Dieser Bot erlaubt die Synchronisation zwischen der Webseite von ifheroes.de und
 ### Weitere Infos
 
 > 1. In einer Datei, namens `config.json`, welche sich im Stammverzeichnis befindet, werden der Token, die Channel ID von dem Channel der geprüft werden soll und ein Präfix gespeichert. Ohne diese Datei wird der Bot nicht funktionieren. Hier ist der Inhalt der Datei:
->`config.json`
 >```json
 >{
 >    "token": "Bot Token",
