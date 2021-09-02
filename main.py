@@ -10,6 +10,8 @@ PREFIX  = data["prefix"]
 
 client = commands.Bot(command_prefix=PREFIX, intents = discord.Intents.default(), case_insensitive=True)
 
+client.remove_command('help')
+
 @client.event
 async def on_ready():
     print('\nReady!\n')
