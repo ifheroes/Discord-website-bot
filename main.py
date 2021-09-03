@@ -3,7 +3,7 @@ from discord.ext import commands
 import json
 import os
 
-with open("config.json", "r") as f:
+with open("./config.json", "r") as f:
     data = json.load(f)
 TOKEN = data["token"]
 PREFIX  = data["prefix"]
